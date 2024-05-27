@@ -1,6 +1,6 @@
 import { Box, Flex, Text, VStack, HStack, Link, IconButton, Button, Input, Spinner, Alert, AlertIcon } from "@chakra-ui/react";
 import { FaHome, FaChartBar, FaCog } from "react-icons/fa";
-import { usePosts, useAddPost, useReactions, useAddReaction } from '../integrations/supabase/api';
+import { usePosts, useAddPost, useReactions, useAddReaction } from '../integrations/supabase/api.jsx';
 import { useState } from 'react';
 
 const Dashboard = () => {
